@@ -3,28 +3,28 @@
 This project provides a **secure authentication system** using **Next.js, NextAuth.js, and Redux Toolkit**. It supports **Google authentication** and **credentials-based login**, with a user-friendly dashboard and session management.
 
 ## Features
-- 🔐 **Authentication with NextAuth.js** (Google & credentials-based login).
-- 🛠 **Redux Toolkit for global session state management**.
-- 🍪 **Secure session storage with cookies**.
-- 📊 **Dashboard displaying user session details**.
-- 🚀 **Logout functionality to clear session and redirect to login**.
-- 🎨 **Modern and responsive UI using TailwindCSS**.
-- ⚡ **Error handling for authentication failures**.
+-  **Authentication with NextAuth.js** (Google & credentials-based login).
+-  **Redux Toolkit for global session state management**.
+-  **Secure session storage with cookies**.
+-  **Dashboard displaying user session details**.
+-  **Logout functionality to clear session and redirect to login**.
+-  **Modern and responsive UI using TailwindCSS**.
+-  **Error handling for authentication failures**.
 
 ## Getting Started
 
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 ```sh  
 git clone https://github.com/Amandeeptiawri/Next-Auth-App.git  
 cd next-auth-app 
 ```
 
-### 2️⃣ Install Dependencies
+### 2️ Install Dependencies
 ```sh  
 npm install  
 ```
 
-### 3️⃣ Configure Environment Variables
+### 3️ Configure Environment Variables
 Create a `.env.local` file in the project root and add:  
 ```
 NEXTAUTH_SECRET=your-secret-key  
@@ -33,7 +33,7 @@ GOOGLE_CLIENT_SECRET=your-google-client-secret
 ```
 Replace the placeholders with your actual credentials.
 
-### 4️⃣ Run the Development Server
+### 4️ Run the Development Server
 ```sh  
 npm run dev  
 ```
