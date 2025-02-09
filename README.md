@@ -16,7 +16,7 @@ This project provides a **secure authentication system** using **Next.js, NextAu
 ### 1️⃣ Clone the Repository
 ```sh  
 git clone https://github.com/Amandeeptiawri/Next-Auth-App.git  
-cd your-repo  
+cd next-auth-app 
 ```
 
 ### 2️⃣ Install Dependencies
