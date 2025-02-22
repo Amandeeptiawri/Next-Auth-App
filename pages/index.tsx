@@ -42,7 +42,7 @@ export default function LoginPage() {
         {error && <p className="text-red-500 text-sm text-center">{error}</p>}
 
         <form onSubmit={handleLogin} className="space-y-4">
-          {/* Email Input */}
+          
           <div className="flex items-center border rounded-lg p-2 bg-gray-50 text-black">
             <AiOutlineMail className="text-gray-400 mx-2" />
             <input
@@ -53,8 +53,6 @@ export default function LoginPage() {
               className="w-full bg-transparent outline-none"
             />
           </div>
-
-          {/* Password Input */}
           <div className="flex items-center border rounded-lg p-2 text-black bg-gray-50">
             <AiOutlineLock className="text-gray-400 mx-2" />
             <input
@@ -66,7 +64,6 @@ export default function LoginPage() {
             />
           </div>
 
-          {/* Login Button */}
           <button
             type="submit"
             disabled={loading}
@@ -83,8 +80,6 @@ export default function LoginPage() {
           <span className="mx-2 text-gray-400">OR</span>
           <div className="border-t flex-grow"></div>
         </div>
-
-        {/* Google Login Button */}
         <button
           type="button"
           onClick={() => signIn("google")}
